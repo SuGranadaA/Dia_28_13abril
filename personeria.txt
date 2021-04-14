@@ -1,0 +1,10 @@
+Armando
+15
+Berta
+21
+Carlos
+35
+Diana
+63
+Esteban
+12
