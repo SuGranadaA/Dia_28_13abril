@@ -43,7 +43,7 @@ votos1 = {
 print("\nEl resumen de los votos es: \n", votos1, "\n")
 
 #Definimos los colores a utilizar en la gráfica
-colores = ["blue", "green", "yellow", "pink", "violet"]
+colores = ["lightblue", "lightgreen", "lightyellow", "pink", "orange"]
 
 #Creamos la gráfica y relacionamos los valores y colores
 plt.bar(votos1.keys(), votos1.values(), color=colores)
@@ -99,7 +99,7 @@ datitos = {
 print("\nLos datos del diccionario son: \n", datitos, "\n")
 
 #Definimos los colores a utilizar en la gráfica
-col = ["brown", "lightgreen", "blue", "red"]
+col = ["brown", "lightgreen", "lightblue", "lightyellow"]
 
 #Creamos la gráfica y relacionamos los valores y colores
 plt.pie(datitos.values(),
